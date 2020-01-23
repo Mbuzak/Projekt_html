@@ -1,0 +1,99 @@
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+body {
+	background:white;
+}
+#lewa {
+	margin-left: auto;
+	margin-right: auto;
+}
+#lewa nav a {
+	margin-right: -4px;
+	display:inline-block;
+	padding:10px;
+	box-sizing: border-box;
+	background:navy;
+	color: white;
+	text-decoration:none;
+}
+#lewa nav a:hover {
+	background: black;
+	color: grey;
+}
+header {
+	background: white;
+	font-size:25px;
+	padding:10px;
+}
+footer {
+	background: white;
+	font-size:13px;
+	text-align: right;
+	color: black;
+	padding: 10px;
+}	
+	
+@media screen and (max-width: 721px) {
+  #lewa nav a {
+	  text-align:center;
+	  width:30%;
+  }
+  #lewa nav {
+	  text-align:center;
+	  background-color: navy;
+	  width: 100%;
+	  height: 80px;
+	  box-sizing:border-box;
+  }
+  #gn1 {
+	  width:90%;
+	  background: white;
+	  box-sizing:border-box;
+	  margin-left: auto;
+	  margin-right: auto;
+  }
+  #gn1 img
+  {
+	display: none;  
+  }
+ }
+ @media screen and (min-width: 722px) {	 
+  #lewa nav {
+	position: fixed;
+	text-align:center;
+	background-image: url(headerbg.jpg);
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px; width: 100%;
+	box-sizing:border-box;
+	padding: 20px;
+  }
+  #lewa nav a {
+	  text-align:center;
+	  background-image: url(headerbg.jpg);
+	  width:20%;
+	  height:60px;
+  }
+  #gn1r {
+	  position:static;
+	  height:100px;
+  }
+  #gn1 {
+	  width:50%;
+	  margin-left: auto;
+	  margin-right: auto;
+	  background:white;
+	  padding: 30px;
+	  line-height: 40px;
+	  box-sizing:border-box;
+	  border-box:100px;
+  }
+  #gn1 a {
+	  text-decoration:none;
+	  color: magenta;
+  }  
+}
+	
